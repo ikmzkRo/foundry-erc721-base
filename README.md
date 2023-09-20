@@ -22,7 +22,7 @@ $ forge build
 ```
 
 ### Test
-
+https://book.getfoundry.sh/forge/writing-tests
 ```shell
 $ forge test
 ```
@@ -40,7 +40,9 @@ $ forge snapshot
 ```
 
 ### Anvil
+launch local node network
 
+Listening on 127.0.0.1:8545
 ```shell
 $ anvil
 ```
@@ -52,7 +54,7 @@ $ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --pri
 ```
 
 ### Cast
-
+https://book.getfoundry.sh/cast/
 ```shell
 $ cast <subcommand>
 ```
